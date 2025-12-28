@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+secrets.py
+
+# Vector DB / indexes (DO NOT COMMIT)
+db/
+index/
+*.sqlite3
+
+# Colab artifacts
+*.log

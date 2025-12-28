@@ -1,0 +1,11 @@
+MODE: llm_repaired_second_try
+format_ok: True
+grounded_ok: True
+
+Verify the packager job status and origin storage availability [RB_Packager_Manifest_Errors.md::C1]
+Confirm the manifest URL path and asset identifiers [RB_Packager_Manifest_Errors.md::C1]
+Inspect the manifest for missing EXT-X-KEY (HLS) or ContentProtection (DASH) [RB_Packager_Manifest_Errors.md::C1]
+Ensure renditions are present and aligned (audio/video tracks) [RB_Packager_Manifest_Errors.md::C1]
+Restart the packager job and re-publish the asset [RB_Packager_Manifest_Errors.md::C1]
+Validate CMS metadata and publishing pipeline [RB_Packager_Manifest_Errors.md::C1]
+Collect the manifest URL and response headers, asset ID, publish time, and ingest pipeline logs [RB_Packager_Manifest_Errors.md::C1]
