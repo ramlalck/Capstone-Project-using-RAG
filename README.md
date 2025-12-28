@@ -88,7 +88,9 @@ python ui.py
 
 In Colab, the UI provides a public gradio.live URL.
 
-### What this project demonstrates
+---
+
+## What this project demonstrates
 
 End-to-end RAG system design
 
@@ -98,6 +100,7 @@ Product-grade packaging (CLI, UI, config, docs)
 
 Alignment with real OTT operational workflows
 
-Disclaimer
+---
+## Disclaimer
 
 All runbooks included are synthetic and contain no proprietary or customer data.
